@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas - Versão Vetor</title>
+    
+    <!-- Link para o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Lista de Tarefas</h1>
+        
+        <input type="text" id="inputTarefa" placeholder="Digite uma nova tarefa...">
+        <button class="btn-adicionar" id="btnAdicionar">Adicionar</button>
+        
+        <div class="contador">
+            Total de tarefas: <span id="contador">0</span>
+        </div>
+        
+        <button class="btn-remover-ultima" id="btnRemoverUltima">Remover Última</button>
+        <button class="btn-limpar" id="btnLimparLista">Limpar Lista</button>
+        
+        <ul id="listaTarefas"></ul>
+        
+        <footer>
+            💡 As tarefas são guardadas em um VETOR (array)
+        </footer>
+    </div>
+
+    <!-- Link para o JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
