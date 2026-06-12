@@ -33,7 +33,6 @@ input {
     border: 2px solid #ddd;
     border-radius: 10px;
     outline: none;
-    transition: border-color 0.2s;
 }
 
 input:focus {
@@ -47,7 +46,7 @@ button {
     border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
-    transition: transform 0.2s, background-color 0.2s;
+    transition: transform 0.2s;
 }
 
 button:hover {
@@ -95,11 +94,6 @@ li {
     font-size: 16px;
     color: #333;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
-}
-
-li:hover {
-    transform: translateX(5px);
 }
 
 footer {
